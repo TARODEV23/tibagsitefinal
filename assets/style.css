@@ -3,18 +3,64 @@
     --bebas: "Bebas Neue", sans-serif;
     --arimo: "Arimo", sans-serif;
     --tnr: "Times New Roman", sans-serif;
-    --dark: #011627;
-    --light: #fdfffc;
-    --blue: #3993dd;
-    --green: #20bf55;
+    --dark: #0b1957;
+    --light: #f8f3ea;
+    --blue: #69cbe9;
+    --green: #66bb6a;
 }
 
-h1,h2,h3,h4,h5 {
-    font-family: var(--tnr);
-    font-weight: bold;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-p { 
-    font-family: var(--tnr);
-    font-weight: bold;
+/* hero section css */
+#nav_hero_section {
+    background-image: url('images/tibag_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: fit-content;
 }
+.tibag_seal {
+    height: 300px;
+    width: 300px;
+}
+/* end of hero section css */
+
+/* upcoming events section css */
+#upcoming_events_section {
+    background-color: var(--blue);
+    height: fit-content;
+}
+#upcoming_events_card {
+    background-color: var(--light);
+    opacity: 1;
+    background-size: 19px 19px;
+    background-image: repeating-linear-gradient(45deg, var(--green) 0, var(--green) 1.9000000000000001px, #ffffff 0, #ffffff 50%);
+    height: fit-content;
+}
+/* end of upcoming events section css */
+
+/* disaster risk management section css */
+#disaster-risk-section {
+    background-color: var(--blue);
+    height: fit-content;
+}
+/* disaster risk management section css end */
+
+/* about barangay section css */
+#about-barangay-section {
+    background: linear-gradient(rgba(102, 187, 106, 0.5), rgba(102, 187, 106, 0.5)), url('images/tibag_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: fit-content; 
+}
+/* about barangay section css */
+
+/* footer section css */
+#footer_section {
+    background-image: linear-gradient(to bottom, rgba(102, 187, 106, 0.5), var(--green));
+    height: fit-content;
+}
+/* footer section css */
